@@ -19,7 +19,7 @@
     #set align(left + horizon)
     #block(
       width: 100%,
-      stroke: (bottom: white + 0.5pt), 
+      stroke: (bottom: white + 0.5pt),
       inset: (top: 0pt, bottom: 5pt),
     )[
       #set text(font: _cover_font)
@@ -29,8 +29,8 @@
   [
     #set align(center + horizon)
     #block(
-      width: 100%, 
-      stroke: (bottom: 0.5pt), 
+      width: 100%,
+      stroke: (bottom: 0.5pt),
       inset: (top: 0pt, bottom: 5pt),
     )[
       #set text(font: _cover_font, size: 16pt)
@@ -40,11 +40,11 @@
   ]
 )
 #let showpage(
-  course : "", 
-  class : "", 
-  author : "", 
-  stdid : "", 
-  college : "", 
+  course : "",
+  class : "",
+  author : "",
+  stdid : "",
+  college : "",
   title : "",
   doctype : "实验报告",
 ) = {
@@ -103,7 +103,7 @@
     footer: align(center)[
       #set text(font: _body_font, size: 16pt)
       #context[
-         #counter(page).display("1") 
+         #counter(page).display("1")
       ]
     ],
   )
