@@ -1,4 +1,4 @@
-#import "@preview/xmdjy-sdu-report-template:0.1.1" : *
+#import "@preview/sdu-report-template:0.1.2" : *
 
 #showpage(
   course: "课程名称",

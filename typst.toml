@@ -1,14 +1,14 @@
 [package]
-name = "xmdjy-sdu-report-template"
-version = "0.1.1"
+name = "sdu-report-template"
+version = "0.1.2"
 entrypoint = "lib.typ"
 authors = ["xmdjy <xmdjy703@outlook.com>"]
 license = "MIT"
-description = "A simple and customizable experimental report template for SDU students (Shandong University)."
+description = "Experimental reports for Shandong University students."
 repository = "https://github.com/xmdjy/sdu-report-template"
-keywords = ["sdu","simple","personalization"]
+keywords = ["sdu", "Shandong University", "experimental report"]
 compiler = "0.13.0"
-exclude = ["examples"]
+exclude = ["examples", "assets/exp.png", "assets/sdu-report-image.png", "images"]
 categories = ["report"]
 
 [template]
