@@ -8,14 +8,14 @@
 专为山东大学课程实验设计
 
 [![Typst](https://img.shields.io/badge/Typst-template-239DAD?logo=typst&logoColor=white)](https://typst.app/)
-[![Version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/xmdjy/sdu-report-template)
+[![Version](https://img.shields.io/badge/version-0.1.2-blue)](https://github.com/xmdjy/sdu-report-template)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 [快速开始](#-快速开始) · [功能亮点](#-功能亮点) · [查看示例 PDF](./examples/demo.pdf)
 
 </div>
 
-![最新模板效果：封面与正文预览](./thumbnail.png)
+![最新模板效果：封面与正文预览](./examples/preview.png)
 
 ## ✨ 功能亮点
 
@@ -63,13 +63,13 @@ typst compile --root . examples/demo.typ
 如果该版本已发布至 Typst Universe，可以直接创建一个新项目：
 
 ```bash
-typst init @preview/xmdjy-sdu-report-template
+typst init @preview/sdu-report-template:0.1.2
 ```
 
 生成的目录里 `main.typ` 已经写好骨架，`ref.bib` 用于参考文献。也可以在已有项目中直接导入：
 
 ```typst
-#import "@preview/xmdjy-sdu-report-template:0.1.1": *
+#import "@preview/sdu-report-template:0.1.2": *
 ```
 
 随后使用与上方相同的 `#showpage(...)` 和 `#reportpage[...]` 即可。
@@ -150,6 +150,7 @@ sdu-report-template/
 
 ## 📌 版本记录
 
+- `0.1.2` — 更新包信息、初始化模板与发布预览，修复正文页码和中文排版细节
 - `0.1.1` — 优化模板细节与依赖包（2026-03-13）
 - `0.1.0` — 首个公开版本（2026-02-16）
 
